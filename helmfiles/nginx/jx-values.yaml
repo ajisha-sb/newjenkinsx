@@ -33,16 +33,20 @@ jxRequirements:
     registry: ghcr.io
   environments:
   - key: dev
+    owner: ajisha-sb
+    repository: newjenkinsx
   - key: staging
   - key: production
   ingress:
-    domain: change.me
+    domain: jx-vismaya.lan
     kind: ingress
     namespaceSubDomain: -nginx.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: ajisha-sb
   repository: bucketrepo
   secretStorage: local
   vault: {}
