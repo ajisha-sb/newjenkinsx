@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "jx-vismaya.lan"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
