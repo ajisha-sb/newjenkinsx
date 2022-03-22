@@ -1,0 +1,3 @@
+ingress:
+  customHosts:
+    hook: "vismaya.ngrok.io"
